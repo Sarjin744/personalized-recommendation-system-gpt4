@@ -1,0 +1,172 @@
+{
+  "courses": [
+    {
+      "id": "CRS-001",
+      "title": "Python for AI",
+      "category": "Artificial Intelligence",
+      "tags": ["Python", "AI", "Programming", "Machine Learning", "Data Structures"],
+      "level": "Beginner",
+      "type": "Practical",
+      "practical_ratio": 0.85,
+      "duration_weeks": 6,
+      "description": "Hands-on foundation in Python tailored for Artificial Intelligence, covering NumPy, Pandas, OOP, and data wrangling for AI pipelines.",
+      "syllabus": ["Python Refresher & Vectorization", "Data Pipelines with Pandas", "Linear Algebra in NumPy", "Building First AI Model"]
+    },
+    {
+      "id": "CRS-002",
+      "title": "Machine Learning Basics",
+      "category": "Machine Learning",
+      "tags": ["Machine Learning", "AI", "Python", "Scikit-Learn", "Algorithms"],
+      "level": "Beginner",
+      "type": "Practical",
+      "practical_ratio": 0.80,
+      "duration_weeks": 8,
+      "description": "Applied introduction to machine learning concepts: regression, classification, clustering, evaluation metrics, and model deployment.",
+      "syllabus": ["Supervised Learning", "Classification & Regression", "Unsupervised Clustering", "Model Evaluation & Tuning"]
+    },
+    {
+      "id": "CRS-003",
+      "title": "Generative AI with Python",
+      "category": "Artificial Intelligence",
+      "tags": ["Generative AI", "AI", "Python", "LLMs", "Prompt Engineering", "OpenAI"],
+      "level": "Beginner",
+      "type": "Practical",
+      "practical_ratio": 0.90,
+      "duration_weeks": 6,
+      "description": "Learn to develop intelligent applications using Generative AI, LLMs, prompt engineering, embeddings, and API integrations.",
+      "syllabus": ["Prompt Engineering Principles", "LLM APIs & Streaming", "Retrieval Augmented Generation (RAG)", "Autonomous Agents"]
+    },
+    {
+      "id": "CRS-004",
+      "title": "Data Science with Python",
+      "category": "Data Science",
+      "tags": ["Data Science", "Python", "Data Analysis", "Visualization", "Statistics"],
+      "level": "Beginner",
+      "type": "Practical",
+      "practical_ratio": 0.75,
+      "duration_weeks": 7,
+      "description": "Combines Python programming and exploratory data analysis, visual storytelling with Seaborn, and statistical inference.",
+      "syllabus": ["Data Cleaning & Preprocessing", "Exploratory Data Analysis", "Feature Engineering", "Dashboard Reporting"]
+    },
+    {
+      "id": "CRS-005",
+      "title": "Deep Learning Basics",
+      "category": "Deep Learning",
+      "tags": ["Deep Learning", "AI", "Neural Networks", "PyTorch", "TensorFlow"],
+      "level": "Intermediate",
+      "type": "Practical",
+      "practical_ratio": 0.75,
+      "duration_weeks": 8,
+      "description": "Natural progression after ML: explore artificial neural networks, backpropagation, CNNs for computer vision, and modern optimizers.",
+      "syllabus": ["Perceptrons & Multi-Layer Neural Nets", "Backpropagation & Loss Functions", "Convolutional Neural Networks", "Transfer Learning"]
+    },
+    {
+      "id": "CRS-006",
+      "title": "Computer Vision Fundamentals",
+      "category": "Artificial Intelligence",
+      "tags": ["Computer Vision", "AI", "OpenCV", "Deep Learning", "Image Processing"],
+      "level": "Intermediate",
+      "type": "Practical",
+      "practical_ratio": 0.80,
+      "duration_weeks": 7,
+      "description": "Techniques for computer vision, OpenCV video streams, object detection (YOLO), and automated visual recognition systems.",
+      "syllabus": ["Image Filtering & Transformations", "Feature Matching", "Object Detection with YOLO", "Real-time Video Processing"]
+    },
+    {
+      "id": "CRS-007",
+      "title": "Python Programming Masterclass",
+      "category": "Software Engineering",
+      "tags": ["Python", "Programming", "OOP", "Data Structures", "Backend"],
+      "level": "Beginner",
+      "type": "Practical",
+      "practical_ratio": 0.85,
+      "duration_weeks": 6,
+      "description": "Comprehensive grounding in Python syntax, object-oriented design, modules, unit testing, and scalable programming patterns.",
+      "syllabus": ["Python Core Syntax", "OOP & Design Patterns", "File I/O & Exception Handling", "Building Modular Applications"]
+    },
+    {
+      "id": "CRS-008",
+      "title": "Data Analytics using Python",
+      "category": "Data Science",
+      "tags": ["Data Analytics", "Python", "Pandas", "BI", "Statistics"],
+      "level": "Beginner",
+      "type": "Practical",
+      "practical_ratio": 0.80,
+      "duration_weeks": 6,
+      "description": "Learn to extract actionable business insights from raw data pipelines using Python, SQL, and interactive dashboards.",
+      "syllabus": ["Data Aggregation", "SQL & Pandas Interoperability", "Statistical Modeling", "Automated Reporting"]
+    },
+    {
+      "id": "CRS-009",
+      "title": "Network Security & Defense",
+      "category": "Cybersecurity",
+      "tags": ["Network Security", "Networks", "Cybersecurity", "Firewalls", "Protocols"],
+      "level": "Beginner",
+      "type": "Practical",
+      "practical_ratio": 0.75,
+      "duration_weeks": 6,
+      "description": "Principles of computer networks, packets, OSI layers, firewall configurations, intrusion detection systems, and defensive hardening.",
+      "syllabus": ["TCP/IP Protocols & Packet Analysis", "Firewalls & VPNs", "Intrusion Detection Systems (IDS)", "Zero Trust Architecture"]
+    },
+    {
+      "id": "CRS-010",
+      "title": "Ethical Hacking & Penetration Testing",
+      "category": "Cybersecurity",
+      "tags": ["Ethical Hacking", "Cybersecurity", "Penetration Testing", "Security", "Kali Linux"],
+      "level": "Beginner",
+      "type": "Practical",
+      "practical_ratio": 0.85,
+      "duration_weeks": 8,
+      "description": "Learn offensive security tools and methodologies: reconnaissance, vulnerability scanning, exploit frameworks, and responsible disclosure.",
+      "syllabus": ["Reconnaissance & Footprinting", "Vulnerability Scanning", "Exploitation Techniques", "Reporting & Remediation"]
+    },
+    {
+      "id": "CRS-011",
+      "title": "Cybersecurity Fundamentals",
+      "category": "Cybersecurity",
+      "tags": ["Cybersecurity", "Security", "Cryptography", "Identity", "Networks"],
+      "level": "Beginner",
+      "type": "Theoretical",
+      "practical_ratio": 0.50,
+      "duration_weeks": 5,
+      "description": "Fundamental security triad (CIA), basic cryptographic ciphers, public key infrastructure, compliance frameworks, and cyber hygiene.",
+      "syllabus": ["CIA Triad & Risk Assessment", "Symmetric & Asymmetric Encryption", "PKI & Certificates", "Security Governance"]
+    },
+    {
+      "id": "CRS-012",
+      "title": "Full-Stack Web Development",
+      "category": "Web Development",
+      "tags": ["Web Development", "HTML", "CSS", "JavaScript", "React", "Node.js"],
+      "level": "Beginner",
+      "type": "Practical",
+      "practical_ratio": 0.85,
+      "duration_weeks": 10,
+      "description": "Build responsive websites and web applications from scratch with modern frontend (React) and backend API architecture.",
+      "syllabus": ["HTML5/CSS3 Grid & Flexbox", "Modern JavaScript (ES6+)", "React Component Architecture", "RESTful API Integration"]
+    },
+    {
+      "id": "CRS-013",
+      "title": "Cloud Computing with AWS & Docker",
+      "category": "Cloud & DevOps",
+      "tags": ["Cloud", "AWS", "Docker", "DevOps", "Infrastructure"],
+      "level": "Intermediate",
+      "type": "Practical",
+      "practical_ratio": 0.80,
+      "duration_weeks": 7,
+      "description": "Deploy, scale, and manage containerized applications in the cloud utilizing Docker, Kubernetes, and AWS EC2/S3 services.",
+      "syllabus": ["Virtualization & Docker Containers", "AWS Core Services", "CI/CD Deployment Pipelines", "Cloud Security Best Practices"]
+    },
+    {
+      "id": "CRS-014",
+      "title": "Natural Language Processing (NLP)",
+      "category": "Artificial Intelligence",
+      "tags": ["NLP", "AI", "Python", "Transformers", "Text Processing"],
+      "level": "Intermediate",
+      "type": "Practical",
+      "practical_ratio": 0.75,
+      "duration_weeks": 7,
+      "description": "Deep dive into computational linguistics, word embeddings, tokenization, Hugging Face Transformers, and text generation.",
+      "syllabus": ["Text Preprocessing & Regex", "TF-IDF & Word Embeddings", "Transformer Architecture", "Fine-Tuning HuggingFace Models"]
+    }
+  ]
+}
