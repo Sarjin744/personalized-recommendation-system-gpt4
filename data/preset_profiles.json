@@ -1,0 +1,104 @@
+{
+  "profiles": [
+    {
+      "id": "arun",
+      "name": "Arun",
+      "age": 20,
+      "field": "Computer Science",
+      "interests": ["AI", "Python"],
+      "skill_level": "Beginner",
+      "preferred_type": "Practical",
+      "goal": "Learn AI",
+      "user_query": "I am a beginner who likes programming and wants to learn AI. I prefer practical courses rather than theoretical courses.",
+      "feedback_scenario": {
+        "initial_recommendations": [
+          "Python Programming",
+          "Machine Learning",
+          "Web Development"
+        ],
+        "user_feedback": "I am more interested in AI than Web Development.",
+        "expected_updated_focus": [
+          "Artificial Intelligence",
+          "Machine Learning",
+          "Deep Learning",
+          "Generative AI",
+          "Computer Vision"
+        ]
+      }
+    },
+    {
+      "id": "student_a",
+      "name": "Student A",
+      "age": 21,
+      "field": "Computer Science",
+      "interests": ["Python", "AI", "Data Science"],
+      "skill_level": "Beginner",
+      "preferred_type": "Practical",
+      "goal": "Build End-to-End Data Science & AI Projects",
+      "user_query": "I want hands-on practical courses in Python programming, machine learning, and data science projects.",
+      "feedback_scenario": {
+        "user_feedback": "Focus more on generative models and deep learning applications."
+      }
+    },
+    {
+      "id": "student_b",
+      "name": "Student B",
+      "age": 22,
+      "field": "Cybersecurity & Networks",
+      "interests": ["Cybersecurity", "Networks", "Ethical Hacking"],
+      "skill_level": "Beginner",
+      "preferred_type": "Practical",
+      "goal": "Master Network Defense and Penetration Testing",
+      "user_query": "I want to learn how networks operate and how to secure them against attacks through ethical hacking and hands-on lab defense.",
+      "feedback_scenario": {
+        "user_feedback": "Give me more hands-on penetration testing and offensive security labs."
+      }
+    },
+    {
+      "id": "priya",
+      "name": "Priya",
+      "age": 23,
+      "field": "Data Science & Business Analytics",
+      "interests": ["Data Analytics", "Python", "Statistics", "Machine Learning"],
+      "skill_level": "Intermediate",
+      "preferred_type": "Practical",
+      "goal": "Transition from Data Analyst to Senior ML Engineer",
+      "user_query": "I already have solid Python data analysis background and want to advance into predictive modeling and machine learning engineering.",
+      "feedback_scenario": {
+        "user_feedback": "Focus strictly on scalable production ML deployment and deep learning."
+      }
+    }
+  ],
+  "domain_showcases": {
+    "netflix": {
+      "name": "Netflix (Movie Recommendations)",
+      "profile": "Sci-Fi fan who enjoys mind-bending thrillers with philosophical questions and futuristic technology.",
+      "items": [
+        {"title": "Interstellar", "reason": "Matches interest in deep space exploration, relativity, and human survival.", "score": "96%"},
+        {"title": "Inception", "reason": "Direct fit for mind-bending subconscious dreams and high-stakes thriller.", "score": "94%"},
+        {"title": "Blade Runner 2049", "reason": "Philosophical exploration of AI consciousness in futuristic cyberpunk setting.", "score": "90%"},
+        {"title": "The Matrix", "reason": "Iconic foundational sci-fi exploring simulation theory and technology.", "score": "88%"}
+      ]
+    },
+    "amazon": {
+      "name": "Amazon (Product Recommendations)",
+      "profile": "Student setting up an ergonomic workstation for programming and machine learning research.",
+      "items": [
+        {"title": "Ergonomic Mechanical Keyboard (Tactile)", "reason": "Reduces wrist strain during prolonged coding sessions.", "score": "95%"},
+        {"title": "27-inch 4K Color-Accurate Monitor", "reason": "Dual-window side-by-side IDE coding and documentation reading.", "score": "93%"},
+        {"title": "Adjustable Laptop Cooling Stand", "reason": "Maintains optimal laptop thermals during local model training runs.", "score": "89%"},
+        {"title": "Active Noise Cancelling Wireless Headphones", "reason": "Minimizes auditory distractions to maintain deep programming focus.", "score": "86%"}
+      ]
+    },
+    "spotify": {
+      "name": "Spotify (Music Recommendations)",
+      "profile": "Listener who needs ambient instrumental focus beats without vocals for late night programming.",
+      "items": [
+        {"title": "Lofi Coding Beats Playlist", "reason": "Consistent 80 BPM tempo scientifically proven to enhance coding concentration.", "score": "97%"},
+        {"title": "Synthwave Cyberpunk Instrumentals", "reason": "High-energy driving rhythm ideal for debugging and sprint tasks.", "score": "92%"},
+        {"title": "Ambient Deep Focus Binaural Waves", "reason": "Calming background frequency masking environmental ambient noise.", "score": "89%"},
+        {"title": "Modern Neo-Classical Piano", "reason": "Acoustic melodic texture providing mental clarity without distraction.", "score": "84%"}
+      ]
+    }
+  }
+}
